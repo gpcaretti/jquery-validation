@@ -23,5 +23,6 @@ $.extend( $.validator.messages, {
 	nifES: "Inserisci un NIF valido",
 	nieES: "Inserisci un NIE valido",
 	cifES: "Inserisci un CIF valido",
-	currency: "Inserisci una valuta valida"
+	currency: "Inserisci una valuta valida",
+    step: $.validator.format("Inserisci un multiplo di {0}")
 } );
